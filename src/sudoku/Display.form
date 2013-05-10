@@ -138,18 +138,477 @@
             </Constraint>
           </Constraints>
 
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="368" max="32767" attributes="0"/>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="204" max="32767" attributes="0"/>
-              </Group>
-            </DimensionLayout>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+            <Property name="columns" type="int" value="0"/>
+            <Property name="rows" type="int" value="1"/>
           </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField2" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField3" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField4" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField5" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField6" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField7" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField8" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField9" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField10" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField11" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField12" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField13" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField14" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField15" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField16" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField17" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField18" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField19" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField20" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField21" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField22" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField23" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField24" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField25" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField26" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField27" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField28" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField29" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField30" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField31" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField32" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField33" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField34" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField35" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField36" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField37" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField38" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField39" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField40" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField41" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField42" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField43" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField44" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField45" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField46" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField47" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField48" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField49" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField50" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField51" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField52" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField53" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField54" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField55" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField56" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField57" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField58" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField59" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField60" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField61" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField62" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField63" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField64" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField65" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField66" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField67" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField68" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField69" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField70" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField71" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField72" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jTextField73" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField74" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField75" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField76" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField77" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField78" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jTextField79" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField80" linkSize="3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField81" linkSize="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="370" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField1" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField2" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField3" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField4" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField5" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField6" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField7" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField8" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField9" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField10" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField11" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField12" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField13" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField14" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField15" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField16" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField17" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField18" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField19" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField20" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField21" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField22" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField23" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField24" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField25" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField26" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField27" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField28" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField29" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField30" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField31" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField32" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField33" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField34" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField35" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField36" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField37" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField38" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField39" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField40" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField41" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField42" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField43" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField44" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField45" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField46" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField47" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField48" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField49" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField50" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField51" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField52" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField53" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField54" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField55" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField56" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField57" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField58" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField59" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField60" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField61" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField62" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField63" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField64" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField65" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField66" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField67" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField68" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField69" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField70" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField71" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField72" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField73" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField74" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField75" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField76" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField77" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField78" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField79" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField80" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField81" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="jTextField1">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField2">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField3">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField4">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField5">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField6">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField7">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField8">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField9">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField10">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField11">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField12">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField13">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField14">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField15">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField16">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField17">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField18">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField19">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField20">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField21">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField22">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField23">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField24">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField25">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField26">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField27">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField28">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField29">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField30">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField31">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField32">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField33">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField34">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField35">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField36">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField37">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField38">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField39">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField40">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField41">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField42">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField43">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField44">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField45">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField46">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField47">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField48">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField49">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField50">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField51">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField52">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField53">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField54">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField55">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField56">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField57">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField58">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField59">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField60">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField61">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField62">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField63">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField64">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField65">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField66">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField67">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField68">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField69">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField70">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField71">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField72">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField73">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField74">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField75">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField76">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField77">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField78">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField79">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField80">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField81">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel2">
           <Properties>
@@ -170,12 +629,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="368" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="677" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="204" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="274" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
