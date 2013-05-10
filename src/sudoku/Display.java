@@ -17,8 +17,8 @@ public class Display extends javax.swing.JFrame {
      * Creates new form Display
      */
     
-    boolean problem=true;
-    int a[][]=new int[9][9];
+    int a[][]=new int[9][9], ca[][][]=new int[45][9][9], sc[]=new int[10], gsc[]=new int[10], sa[][]=new int[45][3], cc=0, i, j, k, l, m, n;
+    boolean b[][][]=new boolean[9][9][10], cb[][][][]=new boolean[45][9][9][10], problem=true;
     
     public Display() {
 	initComponents();
@@ -1042,12 +1042,453 @@ public class Display extends javax.swing.JFrame {
     }
     
     void problem() {
-	
+	if (chkpuz()) {
+	    chk();
+	    if (chkpuz1()) {
+		putdata();
+	    }
+	    else {
+		jLabel1.setText("The puzzle you entered have some mistakes in it");
+	    }
+	}
+	else {
+	    jLabel1.setText("The puzzle you entered have some mistakes in it");
+	}
     }
     
     void solution() {
 	
     }
+    
+    boolean chkpuz1() {
+	for (i=0;i<9 ;i++ ) {
+	    for (j=0;j<9 ;j++ ) {
+		if (a[i][j]==0) {
+		    return false;
+		}
+	    }
+	}
+	return chkpuz();
+    }
+    
+    boolean chkpuz() {
+	for (i=0;i<9 ;i++ ) {
+	    for (j=0;j<9 ;j++ ) {
+		if (b[i][j][0]) {
+		    for (k=0;k<9 ;k++ ) {
+			if (a[i][j]==a[i][k]&&j!=k) {
+			    return false;
+			}
+		    }
+		    for (k=0;k<9 ;k++ ) {
+			if (a[i][j]==a[k][j]&&i!=k) {
+			    return false;
+			}
+		    }
+		    for (k=(i/3)*3;k<((i/3)*3)+3 ;k++ ) {
+			for (m=(j/3)*3;m<((j/3)*3)+3 ;m++ ) {
+			    if (a[i][j]==a[k][m]&&!(k==i&&m==j)) {
+				return false;
+			    }
+			}
+		    }
+		}								
+	    }
+	}
+	return true;
+    }
+    
+    void putdata() {
+	jLabel2.setText(a[0][0]+"");
+	jLabel3.setText(a[0][1]+"");
+	jLabel4.setText(a[0][2]+"");
+	jLabel5.setText(a[0][3]+"");
+	jLabel6.setText(a[0][4]+"");
+	jLabel7.setText(a[0][5]+"");
+	jLabel8.setText(a[0][6]+"");
+	jLabel9.setText(a[0][7]+"");
+	jLabel10.setText(a[0][8]+"");
+	jLabel11.setText(a[1][0]+"");
+	jLabel12.setText(a[1][1]+"");
+	jLabel13.setText(a[1][2]+"");
+	jLabel14.setText(a[1][3]+"");
+	jLabel15.setText(a[1][4]+"");
+	jLabel16.setText(a[1][5]+"");
+	jLabel17.setText(a[1][6]+"");
+	jLabel18.setText(a[1][7]+"");
+	jLabel19.setText(a[1][8]+"");
+	jLabel20.setText(a[2][0]+"");
+	jLabel21.setText(a[2][1]+"");
+	jLabel22.setText(a[2][2]+"");
+	jLabel23.setText(a[2][3]+"");
+	jLabel24.setText(a[2][4]+"");
+	jLabel25.setText(a[2][5]+"");
+	jLabel26.setText(a[2][6]+"");
+	jLabel27.setText(a[2][7]+"");
+	jLabel28.setText(a[2][8]+"");
+	jLabel29.setText(a[3][0]+"");
+	jLabel30.setText(a[3][1]+"");
+	jLabel31.setText(a[3][2]+"");
+	jLabel32.setText(a[3][3]+"");
+	jLabel33.setText(a[3][4]+"");
+	jLabel34.setText(a[3][5]+"");
+	jLabel35.setText(a[3][6]+"");
+	jLabel36.setText(a[3][7]+"");
+	jLabel37.setText(a[3][8]+"");
+	jLabel38.setText(a[4][0]+"");
+	jLabel39.setText(a[4][1]+"");
+	jLabel40.setText(a[4][2]+"");
+	jLabel41.setText(a[4][3]+"");
+	jLabel42.setText(a[4][4]+"");
+	jLabel43.setText(a[4][5]+"");
+	jLabel44.setText(a[4][6]+"");
+	jLabel45.setText(a[4][7]+"");
+	jLabel46.setText(a[4][8]+"");
+	jLabel47.setText(a[5][0]+"");
+	jLabel48.setText(a[5][1]+"");
+	jLabel49.setText(a[5][2]+"");
+	jLabel50.setText(a[5][3]+"");
+	jLabel51.setText(a[5][4]+"");
+	jLabel52.setText(a[5][5]+"");
+	jLabel53.setText(a[5][6]+"");
+	jLabel54.setText(a[5][7]+"");
+	jLabel55.setText(a[5][8]+"");
+	jLabel56.setText(a[6][0]+"");
+	jLabel57.setText(a[6][1]+"");
+	jLabel58.setText(a[6][2]+"");
+	jLabel59.setText(a[6][3]+"");
+	jLabel60.setText(a[6][4]+"");
+	jLabel61.setText(a[6][5]+"");
+	jLabel62.setText(a[6][6]+"");
+	jLabel63.setText(a[6][7]+"");
+	jLabel64.setText(a[6][8]+"");
+	jLabel65.setText(a[7][0]+"");
+	jLabel66.setText(a[7][1]+"");
+	jLabel67.setText(a[7][2]+"");
+	jLabel68.setText(a[7][3]+"");
+	jLabel69.setText(a[7][4]+"");
+	jLabel70.setText(a[7][5]+"");
+	jLabel71.setText(a[7][6]+"");
+	jLabel72.setText(a[7][7]+"");
+	jLabel73.setText(a[7][8]+"");
+	jLabel74.setText(a[8][0]+"");
+	jLabel75.setText(a[8][1]+"");
+	jLabel76.setText(a[8][2]+"");
+	jLabel77.setText(a[8][3]+"");
+	jLabel78.setText(a[8][4]+"");
+	jLabel79.setText(a[8][5]+"");
+	jLabel80.setText(a[8][6]+"");
+	jLabel81.setText(a[8][7]+"");
+	jLabel82.setText(a[8][8]+"");
+    }
+    
+    void clean() {
+	jLabel2.setText("");
+	jLabel3.setText("");
+	jLabel4.setText("");
+	jLabel5.setText("");
+	jLabel6.setText("");
+	jLabel7.setText("");
+	jLabel8.setText("");
+	jLabel9.setText("");
+	jLabel10.setText("");
+	jLabel11.setText("");
+	jLabel12.setText("");
+	jLabel13.setText("");
+	jLabel14.setText("");
+	jLabel15.setText("");
+	jLabel16.setText("");
+	jLabel17.setText("");
+	jLabel18.setText("");
+	jLabel19.setText("");
+	jLabel20.setText("");
+	jLabel21.setText("");
+	jLabel22.setText("");
+	jLabel23.setText("");
+	jLabel24.setText("");
+	jLabel25.setText("");
+	jLabel26.setText("");
+	jLabel27.setText("");
+	jLabel28.setText("");
+	jLabel29.setText("");
+	jLabel30.setText("");
+	jLabel31.setText("");
+	jLabel32.setText("");
+	jLabel33.setText("");
+	jLabel34.setText("");
+	jLabel35.setText("");
+	jLabel36.setText("");
+	jLabel37.setText("");
+	jLabel38.setText("");
+	jLabel39.setText("");
+	jLabel40.setText("");
+	jLabel41.setText("");
+	jLabel42.setText("");
+	jLabel43.setText("");
+	jLabel44.setText("");
+	jLabel45.setText("");
+	jLabel46.setText("");
+	jLabel47.setText("");
+	jLabel48.setText("");
+	jLabel49.setText("");
+	jLabel50.setText("");
+	jLabel51.setText("");
+	jLabel52.setText("");
+	jLabel53.setText("");
+	jLabel54.setText("");
+	jLabel55.setText("");
+	jLabel56.setText("");
+	jLabel57.setText("");
+	jLabel58.setText("");
+	jLabel59.setText("");
+	jLabel60.setText("");
+	jLabel61.setText("");
+	jLabel62.setText("");
+	jLabel63.setText("");
+	jLabel64.setText("");
+	jLabel65.setText("");
+	jLabel66.setText("");
+	jLabel67.setText("");
+	jLabel68.setText("");
+	jLabel69.setText("");
+	jLabel70.setText("");
+	jLabel71.setText("");
+	jLabel72.setText("");
+	jLabel73.setText("");
+	jLabel74.setText("");
+	jLabel75.setText("");
+	jLabel76.setText("");
+	jLabel77.setText("");
+	jLabel78.setText("");
+	jLabel79.setText("");
+	jLabel80.setText("");
+	jLabel81.setText("");
+	jLabel82.setText("");
+    }
+    
+    void chk() {
+	int count=0,e=0;
+	boolean flag=false, flag1=false;
+	do
+	{
+	    count=0;		
+	    flag=false;
+	    for (i=0;i<9 ;i++ ) {
+		for (j=0;j<9 ;j++ ) {
+		    if (!(b[i][j][0])) {
+			count++;
+			flag=true;						
+			for (k=0;k<9 ;k++ ) {
+			    l=a[i][k];
+			    if (l!=0) {
+				b[i][j][l]=true;
+			    }
+			}
+			for (k=0;k<9 ;k++ ) {
+			    l=a[k][j];
+			    if (l!=0) {
+				b[i][j][l]=true;
+			    }
+			}
+			for (k=(i/3)*3;k<((i/3)*3)+3 ;k++ ) {
+			    for (m=(j/3)*3;m<((j/3)*3)+3 ;m++ ) {
+				l=a[k][m];
+				if (l!=0) {
+				    b[i][j][l]=true;
+				}
+			    }
+			}
+			calc(i, j);
+		    }
+		    if (!b[i][j][0]) {
+			flag1=false;
+			for (n=1;n<=9 ;n++ ) {
+			    for (k=0;k<9 ;k++ ) {
+				if ((k!=j&&!b[i][k][0]&&!b[i][k][n])||(a[i][k]==n)) {
+				    flag1=true;
+				    break;
+				}
+			    }
+			    if (!flag1) {
+				calc(i, j, n);
+				break;
+			    }
+			    flag1=false;
+			}
+			for (n=1;n<=9 ;n++ ) {
+			    for (k=0;k<9 ;k++ ) {
+				if ((k!=i&&!b[k][j][0]&&!b[k][j][n])||(a[k][j]==n)) {
+				    flag1=true;
+				    break;
+				}
+			    }
+			    if (!flag1) {
+				calc(i, j, n);
+				break;
+			    }
+			    flag1=false;
+			}
+			for (n=1;n<=9 ;n++ ) {
+			    for (k=(i/3)*3;k<((i/3)*3)+3 ;k++ ) {
+				for (m=(j/3)*3;m<((j/3)*3)+3 ;m++ ) {
+				    if ((!(k==i&&m==j)&&!b[k][m][0]&&!b[k][m][n])||(a[k][m]==n)) {
+					flag1=true;
+					break;
+				    }
+				}
+			    }
+			    if (!flag1) {
+				calc(i, j, n);
+				break;
+			    }
+			    flag1=false;
+			}
+		    }
+		}
+	    }									
+	    if (count==0&&cc!=0) {
+		flag=assume(true);
+	    }
+	    if (count>0&&e==count) {
+		flag=assume(false);
+	    }
+	    e=count;
+	}
+	while (flag);
+    }
+    
+    boolean assume(boolean ar) {
+	if (chkpuz()) {
+	    if (ar) {
+		cc=0;
+	    }
+	    else {
+		for (i=0;i<9 ;i++ ) {
+		    for (j=0;j<9 ;j++ ) {
+			ca[cc][i][j]=a[i][j];
+			for (k=0;k<=9 ;k++ ) {
+			    cb[cc][i][j][k]=b[i][j][k];
+			}
+		    }
+		}			
+		sc();
+		int lc=2;
+		while (assume(lc)) {
+		    lc++;
+		}
+		cc++;
+	    }
+	}
+	else {
+	    if (cc==0) {
+		return false;
+	    }
+	    int count=0;
+	    cc--;
+	    for (k=0;k<=9 ;k++ ) {
+		if (b[sa[cc][0]][sa[cc][1]][k]) {
+		    count++;
+		}
+	    }
+	    if (count==9) {
+		cc--;
+	    }
+	    for (i=0;i<9 ;i++ ) {
+		for (j=0;j<9 ;j++ ) {
+		    a[i][j]=ca[cc][i][j];
+		    for (k=0;k<=9 ;k++ ) {
+			b[i][j][k]=cb[cc][i][j][k];
+		    }
+		}
+	    }
+	    b[sa[cc][0]][sa[cc][1]][sa[cc][2]]=true;
+	}
+	return true;
+    }
+    
+    boolean assume(int lc) {
+	int lgsc=1;
+	while (assume(lgsc,lc)) {
+	    lgsc++;
+	    if (lgsc>gsc[0]) {
+		return true;
+	    }
+	}
+	return false;		
+    }
+    
+    boolean assume(int lgsc, int lc) {
+	boolean flag=false;
+	for (i=0;i<9 ;i++ ) {
+	    if (flag==true) {
+		return !flag;
+	    }
+	    for (j=0;j<9 ;j++ ) {
+		if (!b[i][j][0]&&!b[i][j][gsc[lgsc]]) {
+		    int count=0;
+		    for (k=1;k<=9 ;k++ ) {
+			if (!b[i][j][k]) {
+			    count++;
+			}
+		    }
+		    if (count==lc) {
+			flag=true;
+			calc(i, j, gsc[lgsc]);
+			sa[cc][0]=i;
+			sa[cc][1]=j;
+			sa[cc][2]=gsc[lgsc];
+			break;
+		    }
+		}
+	    }
+	}
+	return !flag;
+    }
+    
+	void sc() {
+	    int count=0;		
+	    for (i=1;i<=9 ;i++ ) {
+		sc[i]=9;
+	    }
+	    for (i=0;i<9 ;i++ ) {
+		for (j=0;j<9 ;j++ ) {
+		    sc[a[i][j]]--;
+		}
+	    }
+	    for (i=1;i<=9 ;i++ ) {
+		if (sc[gsc[0]]<sc[i]) {
+		    gsc[0]=i;
+		}
+	    }
+	    gsc[0]=sc[gsc[0]];
+	    for (i=1;i<=9 ;i++ ) {
+		if (gsc[0]==sc[i]) {
+		    count++;
+		    gsc[count]=i;
+		}
+	    }
+	    gsc[0]=count;
+	}
+	
+	void calc(int i, int j) {
+	    int count=0,d=0;
+	    for (k=1;k<=9 ;k++ ) {
+		if (b[i][j][k]) {
+		    count++;
+		}
+		else {
+		    d=k;
+		}
+	    }
+	    if (count==8) {
+		calc(i, j, d);
+	    }
+	}
+	
+	void calc(int i, int j, int n) {
+	    a[i][j]=n;
+	    b[i][j][0]=true;
+	}
     
     void button() {
 	if (problem) {
